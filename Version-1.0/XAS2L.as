@@ -3,7 +3,7 @@ function load(gameURL) // Function for Loading Games. Nothing special just makes
    loadMovieNum(gameURL,0,"GET"); // Takes in our gameURL Parameter.
 }
 load("game.swf"); // Your Game File Name Which will be loaded.
-var LoaderInfo = ["Created by : Xploit","Version : 1.0","Home : Hackedarcadegames"]; // Loader Information , Please do not remove.
+var LoaderInfo = ["Created by : Xploit","Version : 1.0"]; // Loader Information , Please do not remove.
 _global.Keyz = [48,49,50,51,52,53,54,55,56,57]; // Keycodes ( 0, 1, 2, 3, 4, 5, 6, 7, 8, 9).
 Stage.align = "TL"; // Align our Stage to the Top Left.
 Stage.scaleMode = "noScale"; // Disable Scaling of the Stage. In Other Words dont let the game stretch when resized.
